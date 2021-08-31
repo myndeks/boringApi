@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Booring!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+
+    <section>
+        <h1>Getting bored and don't know what to do?</h1>
+        <h3>Let me offer some activities for you!</h3>
+
+
+        <form id="form" >
+          <label for="activity">Choose an activity:</label>
+          <select id="activity" name="activity">
+            <option value="education">Education</option>
+            <option value="recreational">Recreational</option>
+            <option value="social">Social</option>
+            <option value="cooking">Cooking</option>
+          </select>
+
+          <label id="participants-label" for="participants">Choose participants:</label>
+          <select id="participants" name="participants">
+            <option value="1">Alone</option>
+            <option value="2">With Friends</option>
+          </select>
+
+
+          <button class="btn" id="btn-show-activity" type="submit" name="button">Show me activity!</button>
+        </form>
+
+        <h3 class="show-activity" id="show-activity">
+        </h3>
+
+        <div class="lds-roller">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+        </div>
+
+
+    </section>
+
+
+  </body>
+</html>
